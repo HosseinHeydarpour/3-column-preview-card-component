@@ -1,0 +1,20 @@
+// Colors
+$color-sedans: hsl(31, 77%, 52%);
+$color-suvs: hsl(184, 100%, 22%);
+$color-luxury: hsl(179, 100%, 13%);
+
+$color-paragraph: hsla(0, 0%, 100%, 0.75);
+$color-bg-hd-bt: hsl(0, 0%, 95%);
+
+//Fonts
+$default-font-size: 1.5rem;
+
+$font-copy: "Lexend Deca", sans-serif;
+$font-headings: "Big Shoulders Display", sans-serif;
+$font-weight-normal: 400;
+$font-weight-bold: 700;
+
+//Breakpoints
+$bp-medium: 56.25em; // 900px
+$bp-sm: 43.75em; // 700px
+$bp-mobile: 35.7em; // 570px

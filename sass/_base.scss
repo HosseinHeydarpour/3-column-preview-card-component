@@ -1,0 +1,29 @@
+html {
+  font-size: 62.5%; //Setting 1rem to 10px ~~> (10/16)*100
+  box-sizing: border-box;
+  @media only screen and (max-width: $bp-medium) {
+    font-size: 50%;
+  }
+}
+
+//Global reset
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 1.5rem;
+  font-family: $font-copy;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: $color-bg-hd-bt;
+  @media only screen and (max-width: $bp-mobile) {
+    padding: 7rem;
+  }
+}

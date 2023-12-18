@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+
+.heading-secondary {
+  font-family: $font-headings;
+  text-transform: uppercase;
+  color: $color-bg-hd-bt;
+  font-size: 3.8rem;
+  margin-bottom: 2.4rem;
+}
+
+.btn {
+  &:link,
+  &:visited {
+    text-decoration: none;
+    display: inline-block;
+    background-color: $color-bg-hd-bt;
+
+    padding: 1rem 2.4rem;
+    border-radius: 1000px;
+    border: 2px solid transparent;
+    transition: all 0.3s;
+  }
+
+  &__sedan:link,
+  &__sedan:visited {
+    color: $color-sedans;
+  }
+  &__suv:link,
+  &__suv:visited {
+    color: $color-suvs;
+  }
+  &__luxury:link,
+  &__luxury:visited {
+    color: $color-luxury;
+  }
+
+  &:hover,
+  &:active {
+    background-color: inherit;
+    border: 2px solid $color-bg-hd-bt;
+    color: $color-bg-hd-bt;
+  }
+}

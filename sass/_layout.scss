@@ -1,0 +1,48 @@
+.card {
+  max-width: 90rem;
+  border-radius: 8px;
+  overflow: hidden;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  @media only screen and (max-width: $bp-mobile) {
+    grid-template-columns: 1fr;
+  }
+
+  &__col {
+    padding: 4.5rem;
+    @media only screen and (max-width: $bp-sm) {
+      padding: 2rem;
+    }
+    @media only screen and (max-width: $bp-mobile) {
+      padding: 5rem;
+    }
+  }
+
+  &__sedan {
+    background-color: $color-sedans;
+  }
+  &__suv {
+    background-color: $color-suvs;
+  }
+  &__luxury {
+    background-color: $color-luxury;
+  }
+
+  &__paragraph {
+    color: $color-paragraph;
+    margin-bottom: 8.4rem;
+    line-height: 1.6;
+    @media only screen and (max-width: $bp-sm) {
+      margin-bottom: 4.2rem;
+      line-height: 1.5;
+    }
+    @media only screen and (max-width: $bp-mobile) {
+      margin-bottom: 2.8rem;
+    }
+  }
+
+  &__logo {
+    margin-bottom: 3rem;
+  }
+}
