@@ -37,8 +37,8 @@ Users should be able to:
 
 
 
-- [Solution URL](https://github.com/HosseinHeydarpour/product-preview-card-component)
-- [Live Site URL](https://hosseinheydarpour.github.io/product-preview-card-component)
+- [Solution URL](https://github.com/HosseinHeydarpour/3-column-preview-card-component)
+- [Live Site URL](https://hosseinheydarpour.github.io/3-column-preview-card-component/)
 
 
 
